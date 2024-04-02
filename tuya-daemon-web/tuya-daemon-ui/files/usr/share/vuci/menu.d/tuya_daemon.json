@@ -1,0 +1,8 @@
+{
+  "services/daemon": {
+    "title": "Tuya IoT",
+    "index": 500,
+    "view": "services/Daemon",
+    "acls": ["services/daemon"]
+  }
+}

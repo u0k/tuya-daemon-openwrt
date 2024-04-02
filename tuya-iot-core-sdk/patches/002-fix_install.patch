@@ -1,0 +1,10 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -72,6 +72,7 @@ add_subdirectory( src )
+ # # Build the demos.
+ add_subdirectory( examples )
+ 
++install(CODE "MESSAGE(\"Sample install message.\")")
+ 
+ message(STATUS "------------------------------------------------------------" )
+ message(STATUS "[Link SDK] Configuration summary."                            )

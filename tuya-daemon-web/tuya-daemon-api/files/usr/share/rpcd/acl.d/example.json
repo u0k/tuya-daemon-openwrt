@@ -1,0 +1,17 @@
+{
+  "services/daemon": {
+    "description": "Example App permissions",
+    "read": {
+      "api": [
+        "/example_f/*",
+        "/example_c/*"
+      ]
+    },
+    "write": {
+      "api": [
+        "/example_f/*",
+        "/example_c/*"
+      ]
+    }
+  }
+}
